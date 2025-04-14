@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 class LetterBlockPlayer {
-    private String word;
-    private List<String> originalBlocks;
+    private final String word;
+    private final List<String> originalBlocks;
     private ArrayList<String> currentBlocks;
 
     static boolean canWrite(String word, List<String> blocks) {
